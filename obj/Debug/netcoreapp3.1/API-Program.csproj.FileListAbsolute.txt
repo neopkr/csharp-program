@@ -1,0 +1,12 @@
+/Users/patoherrera/Projects/API-Program/API-Program/bin/Debug/netcoreapp3.1/API-Program.deps.json
+/Users/patoherrera/Projects/API-Program/API-Program/bin/Debug/netcoreapp3.1/API-Program.runtimeconfig.json
+/Users/patoherrera/Projects/API-Program/API-Program/bin/Debug/netcoreapp3.1/API-Program.runtimeconfig.dev.json
+/Users/patoherrera/Projects/API-Program/API-Program/bin/Debug/netcoreapp3.1/API-Program.dll
+/Users/patoherrera/Projects/API-Program/API-Program/bin/Debug/netcoreapp3.1/API-Program.pdb
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.csprojAssemblyReference.cache
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.AssemblyInfoInputs.cache
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.AssemblyInfo.cs
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.csproj.CoreCompileInputs.cache
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.dll
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.pdb
+/Users/patoherrera/Projects/API-Program/API-Program/obj/Debug/netcoreapp3.1/API-Program.genruntimeconfig.cache
