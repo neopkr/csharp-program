@@ -12,6 +12,7 @@ namespace API_Program
             obj.welcomeMsg();
             obj.clear();
             Console.WriteLine("Username: " + obj.getNombre());
+            restart1:
             Console.WriteLine("Seleccione una de estas dos opciones: ");
             Console.WriteLine("1. Calculadora");
             Console.WriteLine("2. Lista Base");
@@ -28,6 +29,7 @@ namespace API_Program
                     Console.WriteLine("Desea hacer otra operación?");
                     Console.WriteLine("1.- Y");
                     Console.WriteLine("2.- N");
+                    Console.WriteLine("3.- Salir");
                     volver = Convert.ToInt32(Console.ReadLine());
 
                     switch (volver)
@@ -35,8 +37,12 @@ namespace API_Program
                         case 1:
                             functions tmobj = new functions();
                             tmobj.clear();
-                            goto retu;                
+                            goto retu;
                         case 2:
+                            functions dtrobj = new functions();
+                            dtrobj.clear();
+                            goto restart1;
+                        case 3:
                             functions trobj = new functions();
                             trobj.closeProgram();
                             trobj.clear();
