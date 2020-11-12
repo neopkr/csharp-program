@@ -35,8 +35,7 @@ namespace API_Program
                         case 1:
                             functions tmobj = new functions();
                             tmobj.clear();
-                            goto retu;
-                            break;
+                            goto retu;                
                         case 2:
                             functions trobj = new functions();
                             trobj.closeProgram();
