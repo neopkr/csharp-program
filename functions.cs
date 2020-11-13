@@ -40,5 +40,21 @@ namespace API_Program
             Console.ReadKey();
             Environment.Exit(0);
         }
+
+        public void cambio(int e, int t)
+        {
+            functions obj = new functions();
+            if (e >= t)
+            {
+                int cambio = e - t;
+                Console.WriteLine("Ha Compleado el pago con exito, Devolucion: $" + cambio); ;
+                obj.pause();
+            }
+            else
+            {
+                Console.WriteLine("El monto ingresado no es suficiente.");
+                obj.pause();
+            }
+        }
     }
 }

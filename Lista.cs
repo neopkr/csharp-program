@@ -71,9 +71,7 @@ namespace API_Program
                     Console.WriteLine("3.- Item 3");
                     Console.WriteLine("4.- Item 4");
                     subOp = Convert.ToInt32(Console.ReadLine());
-                    if (subOp == 2)
-                    {
-                    pay1:
+                    if (subOp == 2) { 
                         obj.clear();
                         int entrada;
                         int total = Item1 + Item2;
@@ -84,19 +82,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $"+ total);
                         Console.WriteLine("Monto a pagar: ");
                         entrada = Convert.ToInt32(Console.ReadLine());
-                        if (entrada == total)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto pay1;
-                        }
+                        obj.cambio(entrada, total);
                     }
                     else if (subOp == 3)
                     {
-                    pay2:
                         obj.clear();
                         int entrada1;
                         int total1 = Item3 + Item1;
@@ -107,19 +96,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $"+ total1);
                         Console.WriteLine("Monto a pagar: ");
                         entrada1 = Convert.ToInt32(Console.ReadLine());
-                        if (entrada1 == total1)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto pay2;
-                        }
+                        obj.cambio(entrada1, total1);
                     }
                     else if (subOp == 4)
                     {
-                    pay3:
                         obj.clear();
                         int entrada2;
                         int total2 = Item4 + Item1;
@@ -130,15 +110,7 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $"+ total2);
                         Console.WriteLine("Monto a pagar: ");
                         entrada2 = Convert.ToInt32(Console.ReadLine());
-                        if (entrada2 == total2)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto pay3;
-                        }
+                        obj.cambio(entrada2, total2);
                     }
 
                     break;
@@ -154,7 +126,6 @@ namespace API_Program
                     subtOp = Convert.ToInt32(Console.ReadLine());
                     if (subtOp == 1)
                     {
-                    payt1:
                         obj.clear();
                         int entradat;
                         int totalt = Item1 + Item2;
@@ -165,19 +136,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + totalt);
                         Console.WriteLine("Monto a pagar: ");
                         entradat = Convert.ToInt32(Console.ReadLine());
-                        if (entradat == totalt)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto payt1;
-                        }
+                        obj.cambio(entradat, totalt);
                     }
                     else if (subtOp == 3)
                     {
-                    payt2:
                         obj.clear();
                         int entradat1;
                         int totalt1 = Item3 + Item2;
@@ -188,19 +150,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + totalt1);
                         Console.WriteLine("Monto a pagar: ");
                         entradat1 = Convert.ToInt32(Console.ReadLine());
-                        if (entradat1 == totalt1)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto payt2;
-                        }
+                        obj.cambio(entradat1, totalt1);
                     }
                     else if (subtOp == 4)
                     {
-                    payt3:
                         obj.clear();
                         int entradat2;
                         int totalt2 = Item4 + Item2;
@@ -211,15 +164,7 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + totalt2);
                         Console.WriteLine("Monto a pagar: ");
                         entradat2 = Convert.ToInt32(Console.ReadLine());
-                        if (entradat2 == totalt2)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto payt3;
-                        }
+                        obj.cambio(entradat2, totalt2);
                     }
                     break;
 
@@ -234,7 +179,6 @@ namespace API_Program
                     subtaOp = Convert.ToInt32(Console.ReadLine());
                     if (subtaOp == 1)
                     {
-                    payta1:
                         obj.clear();
                         int entradata;
                         int totalta = Item1 + Item3;
@@ -245,19 +189,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + totalta);
                         Console.WriteLine("Monto a pagar: ");
                         entradata = Convert.ToInt32(Console.ReadLine());
-                        if (entradata == totalta)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto payta1;
-                        }
+                        obj.cambio(entradata, totalta);
                     }
                     else if (subtaOp == 2)
                     {
-                    payta2:
                         obj.clear();
                         int entrada1ta;
                         int total1ta = Item3 + Item2;
@@ -268,19 +203,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + total1ta);
                         Console.WriteLine("Monto a pagar: ");
                         entrada1ta = Convert.ToInt32(Console.ReadLine());
-                        if (entrada1ta == total1ta)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto payta2;
-                        }
+                        obj.cambio(entrada1ta, total1ta);
                     }
                     else if (subtaOp == 4)
                     {
-                    payta3:
                         obj.clear();
                         int entrada2ta;
                         int total2ta = Item4 + Item3;
@@ -291,15 +217,7 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + total2ta);
                         Console.WriteLine("Monto a pagar: ");
                         entrada2ta = Convert.ToInt32(Console.ReadLine());
-                        if (entrada2ta == total2ta)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto payta3;
-                        }
+                        obj.cambio(entrada2ta, total2ta);
                     }
                     break;
 
@@ -314,7 +232,6 @@ namespace API_Program
                     subtateOp = Convert.ToInt32(Console.ReadLine());
                     if (subtateOp == 1)
                     {
-                    paytate1:
                         obj.clear();
                         int entradatate;
                         int totaltate = Item1 + Item4;
@@ -325,19 +242,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + totaltate);
                         Console.WriteLine("Monto a pagar: ");
                         entradatate = Convert.ToInt32(Console.ReadLine());
-                        if (entradatate == totaltate)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto paytate1;
-                        }
+                        obj.cambio(entradatate, totaltate);
                     }
-                    else if (subtateOp == 2)
-                    {
-                    paytate2:
+                    else if (subtateOp == 2) { 
+
                         obj.clear();
                         int entrada1tate;
                         int total1tate = Item4 + Item2;
@@ -348,19 +256,10 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + total1tate);
                         Console.WriteLine("Monto a pagar: ");
                         entrada1tate = Convert.ToInt32(Console.ReadLine());
-                        if (entrada1tate == total1tate)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto paytate2;
-                        }
+                        obj.cambio(entrada1tate, total1tate);
                     }
                     else if (subtateOp == 3)
                     {
-                    paytate3:
                         obj.clear();
                         int entrada2tate;
                         int total2tate = Item4 + Item3;
@@ -371,15 +270,7 @@ namespace API_Program
                         Console.WriteLine("Total  ................... $" + total2tate);
                         Console.WriteLine("Monto a pagar: ");
                         entrada2tate = Convert.ToInt32(Console.ReadLine());
-                        if (entrada2tate == total2tate)
-                        {
-                            Console.WriteLine("Ha Compleado el pago con exito");
-                        }
-                        else
-                        {
-                            Console.WriteLine("El monto ingresado no es suficiente.");
-                            goto paytate3;
-                        }
+                        obj.cambio(entrada2tate, total2tate);
                     }
 
                     break;

@@ -54,7 +54,8 @@ namespace API_Program
                     Console.WriteLine("Usted a escogido la lista base");
                     obj.clear();
                     lista.baseList();
-                    break;
+                    obj.clear();
+                    goto restart1;
                 default: Console.WriteLine("Usted no ha escogido uno de los dos puntos establecidos");
                     goto restart;
             }
