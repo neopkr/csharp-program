@@ -16,6 +16,7 @@ namespace API_Program
             Console.WriteLine("Seleccione una de estas dos opciones: ");
             Console.WriteLine("1. Calculadora");
             Console.WriteLine("2. Lista Base");
+            Console.WriteLine("3. Conversion");
             eleccion = Convert.ToInt32(Console.ReadLine());
             switch (eleccion)
             {
@@ -56,6 +57,11 @@ namespace API_Program
                     lista.baseList();
                     obj.clear();
                     goto restart1;
+                case 3:
+                    Conversion conver = new Conversion();
+                    conver.conversion();
+                    
+                    break;
                 default: Console.WriteLine("Usted no ha escogido uno de los dos puntos establecidos");
                     goto restart;
             }
