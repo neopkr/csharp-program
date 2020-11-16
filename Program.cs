@@ -63,9 +63,7 @@ namespace API_Program
                     conver.conversion();
                     obj.clear();
                     goto restart1;
-                    
-                    break;
-                default: Console.WriteLine("Usted no ha escogido uno de los dos puntos establecidos");
+                default: Console.WriteLine("Usted no ha escogido uno de los tres puntos establecidos");
                     goto restart;
             }
         }
