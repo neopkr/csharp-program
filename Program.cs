@@ -56,6 +56,15 @@ namespace API_Program
                     lista.baseList();
                     obj.clear();
                     goto restart1;
+                case 3:
+                    Conversion conver = new Conversion();
+                    Console.WriteLine("Usted a escogido la Conversion");
+                    obj.clear();
+                    conver.conversion();
+                    obj.clear();
+                    goto restart1;
+                    
+                    break;
                 default: Console.WriteLine("Usted no ha escogido uno de los dos puntos establecidos");
                     goto restart;
             }
