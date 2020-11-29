@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DTxVo+SbIRV/W7PHOQN9kEYH1sng1CKzyaFWsz85tzZovefiSu9tbkWC2/djBxpeMEXQ+dvNwLQHQqjKKYFXSA==",
+  "dgSpecHash": "18FzpGQ0lZ3Kf5ffjEBu1UM1qPZ7Ck6tS3BlYox/G3nmS+sD+3ODM4VOKvX8bylF804WrmDInIyULhqX9vaLVQ==",
   "success": true,
-  "projectFilePath": "/Users/patoherrera/Projects/API-Program/API-Program/API-Program.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\neopk\\source\\repos\\API-Program\\API-Program.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\neopk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

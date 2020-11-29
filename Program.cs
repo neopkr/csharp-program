@@ -6,6 +6,8 @@ namespace API_Program
     {
         static void Main(string[] args)
         {
+            Config config = new Config();
+            config.configConsole();
             restart:
             int eleccion;
             functions obj = new functions();
@@ -16,6 +18,8 @@ namespace API_Program
             Console.WriteLine("Seleccione una de estas dos opciones: ");
             Console.WriteLine("1. Calculadora");
             Console.WriteLine("2. Lista Base");
+            Console.WriteLine("3. Conversion");
+            Console.WriteLine("4. Randomizer");
             eleccion = Convert.ToInt32(Console.ReadLine());
             switch (eleccion)
             {
@@ -61,6 +65,14 @@ namespace API_Program
                     Console.WriteLine("Usted a escogido la Conversion");
                     obj.clear();
                     conver.conversion();
+                    obj.clear();
+                    goto restart1;
+                case 4:
+                    Randomizer ran = new Randomizer();
+                    Console.WriteLine("Usted a eligido Randomizer");
+                    obj.pause();
+                    obj.clear();
+                    ran.randomi();
                     obj.clear();
                     goto restart1;
                 default: Console.WriteLine("Usted no ha escogido uno de los tres puntos establecidos");
