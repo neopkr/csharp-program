@@ -6,11 +6,14 @@ namespace API_Program
     {
         static void Main(string[] args)
         {
+            // load config
             Config config = new Config();
             config.configConsole();
+            //
             restart:
             int eleccion;
             functions obj = new functions();
+            obj.clear();
             obj.welcomeMsg();
             obj.clear();
             Console.WriteLine("Username: " + obj.getNombre());
@@ -74,6 +77,11 @@ namespace API_Program
                     obj.clear();
                     ran.randomi();
                     obj.clear();
+                    goto restart1;
+                case 32:
+                    obj.clear();
+                    ConfigH titles = new ConfigH();
+                    titles.configTitleChangeConsole();
                     goto restart1;
                 default: Console.WriteLine("Usted no ha escogido uno de los tres puntos establecidos");
                     goto restart;

@@ -9,7 +9,9 @@ namespace API_Program
         public void configConsole()
         {
             ConfigH configH = new ConfigH();
+            configH.configTitleConsole();
             configH.configHeaderConsole();
+            configH.configBackgroundColor();
         }
     }
 }
