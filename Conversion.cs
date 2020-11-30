@@ -1,5 +1,7 @@
 ﻿using System;
 
+// Aún falta por añadir el case 2
+
 namespace API_Program
 {
     class Conversion
