@@ -2,12 +2,17 @@
 
 Simple Program created in visual studio 2019 Mac.
 
-for clone
+### Installation
 
-#git clone https://github.com/neopkr/csharp-program.git
+Super easy installation with Git, require MINGW64
 
-#cd csharp-program
+```sh
+$ git clone https://github.com/neopkr/csharp-program.git
 
-to run the project with dotnet
+$ cd csharp-program
+```
 
-#dotnet run --proyect API-Program
+To run the project with dotnet
+```sh
+$ dotnet run --proyect API-Program
+```
