@@ -166,6 +166,21 @@ namespace API_Program
                     break;
             }
         }
+        public void configCursorVisible()
+        {
+            int NY;
+            Console.WriteLine("Desea ver el Cursor: ");
+            NY = Convert.ToInt32(Console.ReadLine());
+            if (NY == 1)
+            {
+                Console.CursorVisible = true;
+            }
+            else if (NY == 2)
+            {
+                Console.CursorVisible = false;
+            }
+
+        }
     }
     //The example displays output like the following:
     //    All the foreground colors except DarkCyan, the background color:

@@ -12,6 +12,7 @@ namespace API_Program
             configH.configTitleConsole();
             configH.configHeaderConsole();
             configH.configBackgroundColor();
+            configH.configCursorVisible();
         }
     }
 }
